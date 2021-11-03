@@ -3,7 +3,6 @@ const { suma, resta, multiplicación, division } = require("./calculator");
 
 prompt.start();
 
-prompt.start();
 prompt.get(["numeroA", "numeroB"], (err, result) => {
   if (err) {
     return console.log("Error!");
